@@ -1,1 +1,512 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="Conheça a Amoretto Sorvetes e Açaí em Cambé, Paraná. Consulte sabores, produtos e localização.">
+
+    <title>Amoretto Sorvetes e Açaí | Cambé - PR</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<header class="header" id="topo">
+    <div class="container nav-container">
+
+        <a href="#inicio" class="logo">
+            <span class="logo-icon"> </span>
+            <span class="logo-text">
+                <strong>Amoretto</strong>
+                <small>SORVETES & AÇAÍ</small>
+            </span>
+        </a>
+
+        <button class="menu-toggle" id="menu-toggle"
+                aria-label="Abrir menu"
+                aria-expanded="false"
+                aria-controls="nav-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="nav-menu" id="nav-menu">
+            <a href="#inicio" class="nav-link">Início</a>
+            <a href="#produtos" class="nav-link">Produtos</a>
+            <a href="#sobre" class="nav-link">Sobre nós</a>
+            <a href="#localizacao" class="nav-link">Localização</a>
+            <a href="#contato" class="btn btn-primary">Venha nos visitar ↗</a>
+        </nav>
+
+    </div>
+</header>
+
+<main>
+
+    <!-- INÍCIO -->
+    <section class="hero section" id="inicio">
+        <div class="container hero-grid">
+
+            <div class="hero-content reveal">
+                <span class="eyebrow">  UM MUNDO DE SABORES</span>
+
+                <h1>
+                    Seu momento mais doce
+                    <span class="text-gradient">começa aqui!</span>
+                </h1>
+
+                <p class="hero-description">
+                    Descubra sabores irresistíveis de sorvetes artesanais,
+                    picolés e açaí para deixar seu dia ainda mais especial.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#produtos" class="btn btn-primary">
+                        Conheça nossos produtos →
+                    </a>
+
+                    <a href="#localizacao" class="btn btn-outline">
+                        Como chegar ↗
+                    </a>
+                </div>
+
+                <div class="hero-trust">
+                    <div class="trust-stars" aria-label="Avaliação 4,3 de 5">★★★★☆</div>
+                    <div>
+                        <strong>4,3/5 no Google</strong>
+                        <span>86 avaliações informadas</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual reveal">
+                <div class="hero-image-wrap">
+                    <img
+                        src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=1000&q=85"
+                        alt="Sorvetes coloridos"
+                        fetchpriority="high"
+                        width="1000"
+                        height="1200">
+
+                    <div class="image-label">
+                        <span class="label-heart"> </span>
+                        <div>
+                            <strong>Um carinho em forma de sabor</strong>
+                            <span>Seu próximo momento favorito</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="floating-decoration decoration-one"> </div>
+                <div class="floating-decoration decoration-two"> </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- DESTAQUES -->
+    <section class="highlights section-sm">
+        <div class="container highlights-grid">
+
+            <article class="highlight-item reveal">
+                <div class="highlight-icon pink-icon">     </div>
+                <div>
+                    <h3>Sorvetes artesanais</h3>
+                    <p>Mais de 30 sabores informados para diferentes gostos.</p>
+                </div>
+            </article>
+
+            <article class="highlight-item reveal">
+                <div class="highlight-icon purple-icon"> </div>
+                <div>
+                    <h3>Picolés</h3>
+                    <p>Opções refrescantes para qualquer momento.</p>
+                </div>
+            </article>
+
+            <article class="highlight-item reveal">
+                <div class="highlight-icon cream-icon"> </div>
+                <div>
+                    <h3>Açaí</h3>
+                    <p>Uma opção deliciosa para quem ama açaí.</p>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- PRODUTOS -->
+    <section class="section products-section" id="produtos">
+        <div class="container">
+
+            <div class="section-heading reveal">
+                <span class="eyebrow">DELICIE-SE</span>
+                <h2>Pequenos momentos,<br><span>grandes sabores.</span></h2>
+                <p>
+                    Encontre sua próxima sobremesa favorita.
+                    Consulte os sabores e produtos disponíveis na loja.
+                </p>
+            </div>
+
+            <div class="products-grid">
+
+                <article class="product-card reveal">
+                    <div class="product-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&w=800&q=80"
+                            alt="Sorvete servido em uma casquinha"
+                            loading="lazy">
+                        <span class="product-tag tag-pink">Sorvetes</span>
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">SORVETES</span>
+                        <h3>Pote de sorvete de 1 litro</h3>
+                        <p>Uma opção para compartilhar bons momentos.</p>
+
+                        <div class="product-bottom">
+                            <div>
+                                <span class="price-label">Preço de referência</span>
+                                <strong class="product-price">R$ 15,00</strong>
+                            </div>
+                            <a class="product-link" href="#contato"
+                               aria-label="Consultar pote de sorvete">↗</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card reveal">
+                    <div class="product-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1501446529957-6226bd447c46?auto=format&fit=crop&w=800&q=80"
+                            alt="Sorvetes coloridos"
+                            loading="lazy">
+                        <span class="product-tag tag-purple">Combo</span>
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">COMBO</span>
+                        <h3>Combo com 3 potes de 1 litro</h3>
+                        <p>Consulte as condições e ofertas disponíveis.</p>
+
+                        <div class="product-bottom">
+                            <div>
+                                <span class="price-label">Faixa de referência</span>
+                                <strong class="product-price">R$ 35 a R$ 48</strong>
+                            </div>
+                            <a class="product-link" href="#contato"
+                               aria-label="Consultar combo de sorvetes">↗</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card reveal">
+                    <div class="product-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1488900128323-21503983a07e?auto=format&fit=crop&w=800&q=80"
+                            alt="Sobremesa gelada"
+                            loading="lazy">
+                        <span class="product-tag tag-cream">Refrescante</span>
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">PICOLÉS</span>
+                        <h3>Picolés para todos os momentos</h3>
+                        <p>Consulte os sabores e os preços disponíveis.</p>
+
+                        <div class="product-bottom">
+                            <div>
+                                <span class="price-label">Preço</span>
+                                <strong class="product-price">Consulte na loja</strong>
+                            </div>
+                            <a class="product-link" href="#contato"
+                               aria-label="Consultar picolés">↗</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card reveal">
+                    <div class="product-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&w=800&q=80"
+                            alt="Sobremesa gelada para compartilhar"
+                            loading="lazy">
+                        <span class="product-tag tag-purple">Açaí</span>
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">AÇAÍ</span>
+                        <h3>Açaí de 1 litro</h3>
+                        <p>Uma opção deliciosa para quem ama açaí.</p>
+
+                        <div class="product-bottom">
+                            <div>
+                                <span class="price-label">Preço de referência</span>
+                                <strong class="product-price">R$ 12,99</strong>
+                            </div>
+                            <a class="product-link" href="#contato"
+                               aria-label="Consultar açaí">↗</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <p class="price-disclaimer">
+                ⓘ Os preços exibidos são referências não confirmadas.
+                Consulte os valores, sabores e condições vigentes diretamente
+                com o estabelecimento antes de comprar.
+            </p>
+
+            <div class="center-action">
+                <a href="#contato" class="btn btn-outline">
+                    Consulte os produtos disponíveis →
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section about-section" id="sobre">
+        <div class="container about-grid">
+
+            <div class="about-visual reveal">
+                <div class="about-image-main">
+                    <img
+                        src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&w=1000&q=85"
+                        alt="Sorvete servido para aproveitar um momento especial"
+                        loading="lazy">
+                </div>
+
+                <div class="about-decoration"> </div>
+
+                <div class="about-note">
+                    <span> </span>
+                    <div>
+                        <strong>Seu momento doce</strong>
+                        <span>fica ainda melhor aqui</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-content reveal">
+                <span class="eyebrow">UM POUCO SOBRE NÓS</span>
+
+                <h2>Mais sabor para os seus <span>melhores momentos.</span></h2>
+
+                <p>
+                    A Amoretto Sorvetes e Açaí é uma opção para quem procura
+                    sabores refrescantes e momentos deliciosos em Cambé.
+                    Com uma variedade de sorvetes artesanais, picolés e açaí,
+                    queremos tornar cada visita uma experiência especial.
+                </p>
+
+                <p>
+                    Seja para refrescar a tarde ou compartilhar uma sobremesa,
+                    venha conhecer as opções disponíveis e descobrir seu
+                    próximo sabor favorito.
+                </p>
+
+                <a href="#localizacao" class="btn btn-primary">
+                    Venha conhecer a Amoretto →
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- AVALIAÇÕES -->
+    <section class="section reviews-section" id="avaliacoes">
+        <div class="container">
+
+            <div class="review-panel reveal">
+                <div class="review-content">
+                    <span class="eyebrow">A OPINIÃO DOS CLIENTES</span>
+                    <h2>Uma parada para adoçar o dia.</h2>
+                    <p>
+                        Consulte as avaliações e os comentários dos clientes
+                        no Google.
+                    </p>
+                </div>
+
+                <div class="review-score">
+                    <div class="score-number">4,3<span>/5</span></div>
+                    <div class="score-stars" aria-label="Nota informada de 4,3 de 5">
+                        ★★★★☆
+                    </div>
+                    <span class="review-count">86 avaliações informadas</span>
+
+                    <a
+                        class="btn btn-light"
+                        href="https://www.google.com/search?q=Amoretto+Sorvetes+e+A%C3%A7a%C3%AD+Camb%C3%A9+PR"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Ver avaliações no Google ↗
+                    </a>
+                </div>
+            </div>
+
+            <p class="review-note">
+                Nota e quantidade de avaliações informadas para esta demonstração.
+                Confirme os dados atualizados no Google.
+            </p>
+
+        </div>
+    </section>
+
+    <!-- LOCALIZAÇÃO E HORÁRIOS -->
+    <section class="section location-section" id="localizacao">
+        <div class="container">
+
+            <div class="section-heading reveal">
+                <span class="eyebrow">ESTAMOS EM CAMBÉ</span>
+                <h2>Seu próximo sabor<br><span>está mais perto.</span></h2>
+                <p>
+                    Planeje sua visita e venha conhecer a Amoretto Sorvetes e Açaí.
+                </p>
+            </div>
+
+            <div class="location-grid">
+
+                <div class="location-card reveal">
+                    <div class="location-card-header">
+                        <span class="location-icon"> </span>
+                        <div>
+                            <span class="product-category">NOSSA LOCALIZAÇÃO</span>
+                            <h3>Venha nos visitar</h3>
+                        </div>
+                    </div>
+
+                    <p class="address-text">
+                        Avenida Antônio Raminelli, 1170<br>
+                        Parque Residencial Ana Rosa<br>
+                        Cambé – PR, CEP 86183-502
+                    </p>
+
+                    <div class="location-divider"></div>
+
+                    <div class="hours-heading">
+                        <span>◷</span>
+                        <h3>Horário de funcionamento</h3>
+                    </div>
+
+                    <ul class="hours-list">
+                        <li><span>Segunda-feira</span><strong>12h às 22h</strong></li>
+                        <li><span>Terça-feira</span><strong>12h às 22h</strong></li>
+                        <li><span>Quarta-feira</span><strong>12h às 22h</strong></li>
+                        <li><span>Quinta-feira</span><strong>12h às 22h</strong></li>
+                        <li><span>Sexta-feira</span><strong>12h às 22h</strong></li>
+                        <li><span>Sábado</span><strong>12h às 22h</strong></li>
+                        <li><span>Domingo</span><strong>12h às 22h</strong></li>
+                    </ul>
+
+                    <p class="hours-disclaimer">
+                        Os horários podem sofrer alterações em feriados.
+                        Confirme antes de se deslocar.
+                    </p>
+
+                    <a
+                        class="btn btn-primary btn-full"
+                        href="https://www.google.com/maps/dir/?api=1&destination=Avenida+Ant%C3%B4nio+Raminelli%2C+1170%2C+Camb%C3%A9%2C+PR"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Abrir rota no Google Maps ↗
+                    </a>
+                </div>
+
+                <div class="map-card reveal">
+                    <iframe
+                        title="Mapa da região da Amoretto Sorvetes e Açaí em Cambé"
+                        src="https://maps.google.com/maps?q=Avenida%20Ant%C3%B4nio%20Raminelli%2C%201170%2C%20Camb%C3%A9%2C%20PR&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section contact-section" id="contato">
+        <div class="container">
+
+            <div class="contact-panel reveal">
+                <div class="contact-decoration contact-decoration-one"> </div>
+                <div class="contact-decoration contact-decoration-two"> </div>
+
+                <span class="eyebrow">SEU PRÓXIMO MOMENTO FAVORITO</span>
+
+                <h2>Bateu vontade de um <span>sorvete?</span></h2>
+
+                <p>
+                    Venha conhecer a Amoretto e descubra seu próximo sabor favorito!
+                </p>
+
+                <div class="contact-actions">
+                    <a href="tel:+554333393060" class="btn btn-light">
+                          Ligar para a loja
+                    </a>
+
+                    <a
+                        href="https://www.instagram.com/amorettosorvetesartesanais/"
+                        class="btn btn-contact-outline"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Instagram ↗
+                    </a>
+
+                    <a
+                        href="https://www.google.com/maps/dir/?api=1&destination=Avenida+Ant%C3%B4nio+Raminelli%2C+1170%2C+Camb%C3%A9%2C+PR"
+                        class="btn btn-contact-outline"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Como chegar ↗
+                    </a>
+                </div>
+
+                <span class="contact-phone">(43) 3339-3060</span>
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+<!-- RODAPÉ -->
+<footer class="footer">
+    <div class="container">
+
+        <div class="footer-grid">
+
+            <div class="footer-brand">
+                <a href="#inicio" class="logo footer-logo">
+                    <span class="logo-icon"> </span>
+                    <span class="logo-text">
+                        <strong>Amoretto</strong>
+                        <small>SORVETES & AÇAÍ</small>
+                    </span>
+                </a>
+
+                <p>
+                    Um mundo de sabores para deixar seus momentos
+                    ainda mais especiais.
+                </p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Navegação</h3>
+                <a href="#inicio">Início</a>
+                <a href="#produtos">Produtos</a>
+                <a href="#sobre"
